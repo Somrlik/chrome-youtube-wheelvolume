@@ -1,0 +1,1 @@
+console.log("If you encounter any problems, visit https://github.com/Somrlik/chrome-youtube-wheelvolume");

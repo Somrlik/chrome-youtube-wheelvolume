@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube -  control volume using mousewheel",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [ {
+      "matches": ["http://*.youtube.com/*", "https://*.youtube.com/*"],
+      "js": ["jquery.js", "content.js"]
+  }],
+  "page_action": {
+    "name": "Youtube mousewheel volume control",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  }
+}
